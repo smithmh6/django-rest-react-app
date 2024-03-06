@@ -1,0 +1,178 @@
+.tsw-old .btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  color: #d1ec3c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 6px;
+  background-color: #3f3f3f;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #d1ec3c 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  min-width: 100px;
+}
+
+.tsw-old .btn:hover {
+  background: #006f94;
+  border: solid #d1ec3c 2px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.tsw-old .btn:active {
+  transform: scale(0.95);
+  background: #005b70;
+}
+
+.tsw-old .no-border {
+  border: none;
+}
+
+.tsw-old .no-border:hover {
+  border: none;
+  background: #006f94;
+  text-decoration: none;
+}
+
+.tsw-old .no-border:active {
+  transform: scale(0.95);
+  background: #005b70;
+}
+
+.printer-btn {
+  color: #d1ec3c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: xx-large;
+  font-weight: 500;
+  padding: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  height: 40px;
+  width: 50px;
+}
+
+.printer-btn:hover {
+  transform: scale(1.25);
+}
+
+.printer-btn:active {
+  transform: scale(1.1);
+}
+
+.plus-btn {
+  color: #d1ec3c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: xxx-large;
+  font-weight: 500;
+  padding: 0px;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+
+.plus-btn:hover {
+  transform: scale(1.25);
+}
+
+.plus-btn:active {
+  transform: scale(1.1);
+}
+
+/* sort arrows for table headers */
+.up-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-bottom: solid 7px black;
+  border-top-width: 0;
+  cursor: pointer;
+}
+
+.down-arrow {
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  background: transparent;
+  border-top: solid 7px black;
+  border-bottom-width: 0;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.nav-btn {
+  margin: 2px 2px;
+}
+
+.create-btn {
+  margin: 5px 5px;
+}
+
+.backToSkusBtn {
+  float: left;
+}
+
+.reset-filter {
+  margin: 0px 10px;
+}
+
+.newSkuButton,
+.newPurchaseButton {
+  width: fit-content;
+  margin: auto;
+}
+
+.floating-left {
+  position: absolute;
+  top: 50%;
+  left: 0.5em;
+}
+
+.floating-right {
+  position: absolute;
+  top: 50%;
+  right: 0.5em
+}
+
+/* Batch Nav button container */
+/*
+.batch-nav-btn-container {
+	margin: auto;
+	width: 99.5%;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	word-spacing: 50%;
+	background-color: #0D0D0D;
+	border-radius: 15px;
+}
+
+
+.batch-nav-btn-container div {
+	width: 33.3%;
+	float: left;
+}
+
+.batch-nav-btn-container div:first-child {
+	text-align: left;
+}
+.batch-nav-btn-container div:last-child {
+	text-align: right;
+}
+*/

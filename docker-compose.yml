@@ -1,0 +1,11 @@
+services:
+  tensorflow:
+    image: tensorflow/serving
+    container_name: model_server
+    ports:
+      - 8501:8501
+    volumes:
+      - /tmp/purchase_lstm_forecast_model:/models/purchase_lstm_forecast_model
+      #- "C:/Users/hsmith/models/purchase_lstm_forecast_model:/models/purchase_lstm_forecast_model"
+    environment:
+      - MODEL_NAME=purchase_lstm_forecast_model

@@ -1,0 +1,152 @@
+.tsw-old textarea {
+  margin-top: 6px;
+  font-size: x-large;
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 120px;
+  height: 30px;
+}
+
+.tsw-old select {
+  font-size: x-large;
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 10px;
+  text-align-last: center;
+}
+
+.sku-form-text-area {
+  width: 230px;
+  min-width: 230px;
+  max-width: 230px;
+  max-height: 100px;
+  min-height: 30px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: 3F3F3F;
+}
+
+.top-form-container {
+  width: fit-content;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.field-label {
+  color: white;
+}
+
+.text-input {
+  width: 150px;
+  margin: auto;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #3f3f3f;
+  color: white;
+}
+
+.text-input.purchaseFormInputs {
+  width: 100%;
+  max-width: 100%;
+}
+
+.purchaseFormSelects {
+  width: 100%;
+  max-width: 100%;
+}
+
+.purchase-form-text-area {
+  width: 94%;
+  min-width: 230px;
+  max-height: 100px;
+  min-height: 30px;
+}
+
+.sku-input {
+  width: 250px;
+}
+
+.num-input {
+  max-width: 100px;
+  font-size: x-large;
+  color: white;
+  background-color: #3f3f3f;
+}
+
+/*----------- TOGGLE SWITCHES ----------*/
+.toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 62px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #707070;
+  transition: background-color ease 0.3s;
+}
+
+.toggle:before {
+  content: 'on off';
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  font: 10px/28px Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-indent: -22px;
+  word-spacing: 37px;
+  color: #fff;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.toggle:checked {
+  background-color: #4cd964;
+}
+
+.toggle:checked:before {
+  left: 32px;
+}
+
+.toggle:disabled:before {
+  color: rgba(255, 255, 255, 0.514);
+  background: rgba(255, 255, 255, 0.514);
+}
+
+.filterToolBar {
+  color: white;
+  font-size: x-large;
+  width: fit-content;
+  margin: auto;
+}
+
+.filterLabel {
+  padding: 2px 10px;
+}
+
+.links {
+  color: aquamarine;
+}

@@ -1,0 +1,12 @@
+# Ignore:
+build
+public
+node_modules
+.prettierrc.yml
+.env.dev
+.env.prod
+.eslintrc.yml
+README.md
+.deployment
+package.json
+package-lock.json

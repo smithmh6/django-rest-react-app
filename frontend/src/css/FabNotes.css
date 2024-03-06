@@ -1,0 +1,70 @@
+
+/* General Fab Notes Styling */
+
+.tsw-old .fab-notes-wrapper .btn.toggle-show {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+.tsw-old .fab-notes-wrapper .btn.toggle-show:hover {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+.tsw-old .fab-notes {
+    border-bottom: solid grey 1px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    padding: 0.5em 1em;
+    align-items: center;
+  }
+  
+.tsw-old .fab-notes .btn {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #282c34;
+  }
+  
+  .tsw-old .fab-notes .btn:hover {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .tsw-old .fab-notes-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+  }
+  
+  .tsw-old .fab-notes h3 {
+    margin: 0px;
+    padding: 0.41em;
+    padding-left: 0.5em;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 15px;
+    flex: 1;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+  
+  .tsw-old .fab-notes textarea {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0.25em 0.5em;
+    flex: 1;
+    width: 100%;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  

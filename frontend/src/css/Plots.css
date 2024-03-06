@@ -1,0 +1,140 @@
+.plotContainer {
+  width: fit-content;
+  margin: auto;
+}
+
+.facilityLayoutContainer {
+  width: 94%;
+  margin: auto;
+}
+
+.facilityLayoutContainer img {
+  width: 100%;
+}
+
+.ar-plot-container {
+  float: left;
+}
+
+/* Gauge Plot Styling */
+.gauge-container {
+  text-align: center;
+}
+
+.gauge-container h1 {
+  margin: 0;
+  font-size: 48px;
+  border-bottom: 1px solid white;
+}
+
+/* Revenue Plot CSS */
+
+.revenue-plot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.revenue-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em
+}
+
+.revenue-wrapper p {
+  margin: 0
+}
+
+.total-number-wrapper {
+  font-size: 42px;
+  font-weight: bolder;
+  background-color: rgb(58, 58, 58);
+  border-radius: 32px;
+}
+
+
+.individual-revenue-container {
+  display: flex;
+}
+
+.individual-revenue-container  > div {
+  padding: 0.5em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual-revenue-container > div:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.revenue-title {
+  font-size: 24px
+}
+
+.total-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 0.5em;
+}
+
+.total-number-container > * {
+  flex: 1
+}
+
+.total-number-container.revenue {
+  border-top: 2px solid grey
+}
+
+.number-title {
+  text-align: right;
+}
+
+.revenue .number {
+  color: rgb(106, 255, 47)
+}
+
+.spent .number {
+  color: red
+}
+
+.revenue-display-box-wrapper {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.revenue-display-box-row {
+  display: flex;
+  gap: 2em;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.revenue-display-box {
+  background-color: #e6e6e6;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  padding: 0 0.5em;
+  border-radius: 4px;
+  gap: 1em;
+}
+
+.revenue-display-box .title {
+  font-size: 18px;
+  align-self: flex-start
+}
+
+.revenue-display-box .number {
+  font-size: 48px;
+  align-self: flex-end;
+  padding: 0 1em 0.1em 1em;
+}
